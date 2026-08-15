@@ -1,6 +1,6 @@
 #include <util/delay.h>
 
-// Define the exact hardware memory locations using RAM addresses
+// Define the exact hardware memory locations
 #define BARE_DDRB  (*(volatile unsigned char *)(0x37))
 #define BARE_PORTB (*(volatile unsigned char *)(0x38))
 
